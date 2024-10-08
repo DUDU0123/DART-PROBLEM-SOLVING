@@ -63,7 +63,6 @@ void removeUsersWithSameNameAndAge({
     final name = map['name'];
     // age variable contains the age of the current user in map
     final age = map['age'];
-
     // so here we need to check the age and name
     // so we are using a map for storing the viewed one
     // so as a key here I am using the name and age as a string
@@ -78,7 +77,6 @@ void removeUsersWithSameNameAndAge({
     } else {
       // here if the key is already available in the viewed map
       // we will come to this else condition
-
       // first we need to find the map that is already saved in the viewed map
       // for that we can use the key
       // so saved map is holding that value
