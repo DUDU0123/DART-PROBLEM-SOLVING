@@ -15,8 +15,8 @@ void main() {
     {'name': 'David', 'age': 28},
     {'name': 'Eve', 'age': 32},
   ];
- final val = groupPeopleByAge(people: people);
- print(val);
+  final val = groupPeopleByAge(people: people);
+  print(val);
 }
 
 Map<int, List<String>> groupPeopleByAge({
@@ -28,7 +28,7 @@ Map<int, List<String>> groupPeopleByAge({
     String name = map['name'];
     if (!savedAgeMap.containsKey(age)) {
       savedAgeMap[age] = [name];
-    }else{
+    } else {
       savedAgeMap[age]?.add(name);
     }
   }
