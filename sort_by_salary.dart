@@ -16,7 +16,7 @@ void main() {
   }
 }
 
-sortEmployeeInDescendingOrderByTheirSalary({
+void sortEmployeeInDescendingOrderByTheirSalary({
   required List<Map<String, dynamic>> employees,
 }) {
   employees.sort((a, b) => b['salary'].compareTo(a['salary']));
