@@ -14,5 +14,10 @@ void main(){
 }
 
 sortEmployeeInDescendingOrderByTheirSalary({required  List<Map<String, dynamic>> employees,}){
-
+  // Map<Map<String, dynamic>,int> saved = {};
+  List<Map<String, dynamic>> j = [];
+  Set<int> salary = {};
+  for (var map in employees) {
+    final currentEmployeeSalary = map['salary'];
+  }
 }
