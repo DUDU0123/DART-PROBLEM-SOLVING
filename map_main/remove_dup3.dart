@@ -4,49 +4,10 @@
 //Remove users with the same name and age,
 //but keep the first one that appears in the list.
 
+import '../constants.dart';
+
 void main() {
-  List<Map<String, dynamic>> userList = [
-    {
-      'id': 1,
-      'name': 'Alice',
-      'age': 25,
-    },
-    {
-      'id': 8,
-      'name': 'Charlie',
-      'age': 22,
-    },
-    {
-      'id': 8,
-      'name': 'Charlie',
-      'age': 21,
-    },
-    {
-      'id': 6,
-      'name': 'Diana',
-      'age': 28,
-    },
-    {
-      'id': 2,
-      'name': 'Bob',
-      'age': 30,
-    },
-    {
-      'id': 3,
-      'name': 'Charlie',
-      'age': 22,
-    },
-    {
-      'id': 4,
-      'name': 'Diana',
-      'age': 28,
-    },
-    {
-      'id': 5,
-      'name': 'Eve',
-      'age': 35,
-    }
-  ];
+  
   removeUsersWithSameNameAndAge(list: userList);
 }
 

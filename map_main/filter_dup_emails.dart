@@ -4,20 +4,11 @@
 // Write a function that filters out employees with duplicate email,
 // keeping only the first employee for each unique email.
 
+import '../constants.dart';
+
 void main() {
-  List<Map<String, dynamic>> employees = [
-    {'id': 1, 'email': 'alice@example.com', 'department': 'HR'},
-    {'id': 2, 'email': 'bob@example.com', 'department': 'Engineering'},
-    {'id': 3, 'email': 'charlie@example.com', 'department': 'Finance'},
-    {'id': 4, 'email': 'david@example.com', 'department': 'Marketing'},
-    {'id': 5, 'email': 'eve@example.com', 'department': 'Engineering'},
-    {'id': 1, 'email': 'alice@example.com', 'department': 'Communication'},
-    {'id': 2, 'email': 'bob@example.com', 'department': 'Sports'},
-    {'id': 3, 'email': 'charlie@example.com', 'department': 'Software Development'},
-    {'id': 4, 'email': 'david@example.com', 'department': 'Driver'},
-    {'id': 5, 'email': 'evedfjndjfdj@example.com', 'department': 'Rider'}
-  ];
-  filterOutEmployeeWithDuplicateEmail(employees: employees);
+ 
+  filterOutEmployeeWithDuplicateEmail(employees: employeesWithEmail);
 }
 
 // here I have written an algorithm for removing the employee with duplicate email
